@@ -10,7 +10,8 @@
       "date": "2026-08-26",
       "mandatory": false,
       "notes": [
-      "What changed"
+      "What changed",
+      "Another change"
       ],
       "files": {
         "win": { "url": "https://github.com/StanParaclete/SPH/releases/download/v1.2.41/SP-H_Felchris_Setup_1_2_41.exe" },
