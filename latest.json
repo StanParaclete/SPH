@@ -10,14 +10,18 @@
       "date": "2026-08-26",
       "mandatory": false,
       "notes": [
-      "Cloud connection status now shows correctly",
-      "Sync status no longer contradicts itself",
-      "Fixed app freezing on single-computer clinics",
-      "Fixed the startup verification failure"
+        "Cloud connection status now shows correctly",
+        "Sync status no longer contradicts itself",
+        "Fixed app freezing on single-computer clinics",
+        "Fixed the startup verification failure"
       ],
       "files": {
-        "win": { "url": "https://github.com/StanParaclete/SPH/releases/download/v1.2.38/SP-H_Felchris_Setup_1_2_38.exe" },
-        "mac": { "url": "https://github.com/StanParaclete/SPH/releases/download/v1.2.38/Stan_Paraclete_Hospital_Hub-1_2_38-arm64.dmg" }
+        "win": {
+          "url": "https://github.com/StanParaclete/SPH/releases/download/v1.2.38/SP-H_Felchris_Setup_1.2.38.exe"
+        },
+        "mac": {
+          "url": "https://github.com/StanParaclete/SPH/releases/download/v1.2.38/Stan.Paraclete.Hospital.Hub-1.2.38-arm64.dmg"
+        }
       }
     }
   ]
