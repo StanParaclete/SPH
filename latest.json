@@ -1,27 +1,21 @@
 {
   "product": "SP-H",
   "channels": {
-    "stable": "1.2.38"
+    "stable": "1.2.40"
   },
   "releases": [
     {
-      "version": "1.2.38",
+      "version": "1.2.40",
       "channel": "stable",
       "date": "2026-08-26",
       "mandatory": false,
       "notes": [
-        "Cloud connection status now shows correctly",
-        "Sync status no longer contradicts itself",
-        "Fixed app freezing on single-computer clinics",
-        "Fixed the startup verification failure"
+      "Security: unregistered machines no longer serve records over the network",
+      "Remote doctor portal"
       ],
       "files": {
-        "win": {
-          "url": "https://github.com/StanParaclete/SPH/releases/download/v1.2.38/SP-H_Felchris_Setup_1.2.38.exe"
-        },
-        "mac": {
-          "url": "https://github.com/StanParaclete/SPH/releases/download/v1.2.38/Stan.Paraclete.Hospital.Hub-1.2.38-arm64.dmg"
-        }
+        "win": { "url": "https://github.com/StanParaclete/SPH/releases/download/v1.2.40/SP-H_Felchris_Setup_1_2_40.exe" },
+        "mac": { "url": "https://github.com/StanParaclete/SPH/releases/download/v1.2.40/Stan_Paraclete_Hospital_Hub-1_2_40-arm64.dmg" }
       }
     }
   ]
