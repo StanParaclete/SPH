@@ -1,25 +1,24 @@
 {
   "product": "SP-H",
   "channels": {
-    "stable": "1.2.42"
+    "stable": "1.2.43"
   },
   "releases": [
     {
-      "version": "1.2.42",
+      "version": "1.2.43",
       "channel": "stable",
       "date": "2026-08-27",
       "mandatory": false,
       "notes": [
-        "QR code pairing \u2014 scan with a phone instead of typing a code",
-        "Add a computer from inside SP-H \u2014 no Terminal needed",
-        "Pairing codes now last 60 minutes"
+        "Pairing by scan or paste \u2014 the address fills itself",
+        "Pairing codes last 60 minutes"
       ],
       "files": {
         "win": {
-          "url": "https://github.com/StanParaclete/SPH/releases/download/v1.2.42/SP-H_Felchris_Setup_1.2.42.exe"
+          "url": "https://github.com/StanParaclete/SPH/releases/download/v1.2.43/SP-H_Felchris_Setup_1.2.43.exe"
         },
         "mac": {
-          "url": "https://github.com/StanParaclete/SPH/releases/download/v1.2.42/Stan.Paraclete.Hospital.Hub-1.2.42-arm64.dmg"
+          "url": "https://github.com/StanParaclete/SPH/releases/download/v1.2.43/Stan.Paraclete.Hospital.Hub-1.2.43-arm64.dmg"
         }
       }
     }
