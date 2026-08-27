@@ -10,9 +10,9 @@
       "date": "2026-08-27",
       "mandatory": false,
       "notes": [
-        "QR code pairing \u2014 scan with a phone instead of typing a code.",
-        "Add a computer from inside SP-H \u2014 no Terminal needed.",
-        "Pairing codes now last 60 minutes instead of 15."
+        "QR code pairing \u2014 scan with a phone instead of typing a code",
+        "Add a computer from inside SP-H \u2014 no Terminal needed",
+        "Pairing codes now last 60 minutes"
       ],
       "files": {
         "win": {
