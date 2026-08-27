@@ -10,12 +10,16 @@
       "date": "2026-08-26",
       "mandatory": false,
       "notes": [
-      "What changed",
-      "Another change"
+        "What changed",
+        "Another change"
       ],
       "files": {
-        "win": { "url": "https://github.com/StanParaclete/SPH/releases/download/v1.2.41/SP-H_Felchris_Setup_1_2_41.exe" },
-        "mac": { "url": "https://github.com/StanParaclete/SPH/releases/download/v1.2.41/Stan_Paraclete_Hospital_Hub-1_2_41-arm64.dmg" }
+        "win": {
+          "url": "https://github.com/StanParaclete/SPH/releases/download/v1.2.41/SP-H_Felchris_Setup_1.2.41.exe"
+        },
+        "mac": {
+          "url": "https://github.com/StanParaclete/SPH/releases/download/v1.2.41/Stan.Paraclete.Hospital.Hub-1.2.41-arm64.dmg"
+        }
       }
     }
   ]
