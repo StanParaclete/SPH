@@ -1,16 +1,39 @@
 {
   "product": "SP-H",
   "channels": {
-    "stable": "1.2.43"
+    "stable": "1.2.104"
   },
   "releases": [
+    {
+      "version": "1.2.104",
+      "channel": "stable",
+      "date": "2026-11-15",
+      "mandatory": false,
+      "notes": [
+        "Height, breathing rate and BMI are kept on each visit's record",
+        "Cloud copy of stock and staff; sign-in checks each person's own PIN",
+        "Back up your data before installing"
+      ],
+      "files": {
+        "win": {
+          "url": "https://github.com/StanParaclete/SPH/raw/downloads/v1.2.104/SP-H_Felchris_Setup_1.2.104.exe",
+          "sha256": "01a28a78451a1fb2871b0aa874293b79e2633529baee328a4de9be4b82903f01",
+          "size": 77269672
+        },
+        "mac": {
+          "url": "https://github.com/StanParaclete/SPH/raw/downloads/v1.2.104/Stan.Paraclete.Hospital.Hub-1.2.104-arm64.dmg",
+          "sha256": "75d77bf413392e2c3271796b91965882c5579d3f65c7d0874c5eb895d2c0a09d",
+          "size": 95560038
+        }
+      }
+    },
     {
       "version": "1.2.43",
       "channel": "stable",
       "date": "2026-08-27",
       "mandatory": false,
       "notes": [
-        "Pairing by scan or paste \u2014 the address fills itself",
+        "Pairing by scan or paste — the address fills itself",
         "Pairing codes last 60 minutes"
       ],
       "files": {
