@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Download SP-H — Stan Paraclete Hospital Hub</title>
+<meta name="description" content="Download SP-H, the clinic management system by Stan Paraclete, for Windows and Mac. Free to download.">
+<style>
+  :root { --ink:#0f1f2e; --muted:#5b6b7a; --line:#dfe6ec; --bg:#f6f9fb; --accent:#0b6e4f; --accent-ink:#fff; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:var(--ink); background:var(--bg); line-height:1.55; }
+  header { background:var(--ink); color:#fff; padding:40px 20px 56px; }
+  .wrap { max-width:880px; margin:0 auto; }
+  .brand { font-size:14px; letter-spacing:.08em; text-transform:uppercase; opacity:.75; margin:0 0 12px; }
+  h1 { font-size:clamp(28px,5vw,40px); line-height:1.15; margin:0 0 10px; }
+  header p { margin:0; max-width:620px; opacity:.85; font-size:17px; }
+  main { margin-top:-32px; padding:0 20px 48px; }
+  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:12px; padding:24px; display:flex; flex-direction:column; gap:12px; }
+  .card.suggested { border-color:var(--accent); box-shadow:0 0 0 2px rgba(11,110,79,.15); }
+  .card h2 { margin:0; font-size:21px; }
+  .meta { color:var(--muted); font-size:14px; margin:0; }
+  .btn { display:inline-block; text-align:center; background:var(--accent); color:var(--accent-ink); text-decoration:none; font-weight:600; padding:13px 18px; border-radius:8px; margin-top:auto; }
+  .btn:focus-visible { outline:3px solid #111; outline-offset:2px; }
+  .tag { font-size:12px; font-weight:600; color:var(--accent); text-transform:uppercase; letter-spacing:.06em; }
+  section { background:#fff; border:1px solid var(--line); border-radius:12px; padding:24px; margin-top:16px; }
+  section h2 { font-size:19px; margin:0 0 10px; }
+  ol { margin:0; padding-left:22px; }
+  li { margin:6px 0; }
+  code { font-size:12px; word-break:break-all; background:var(--bg); padding:2px 5px; border-radius:4px; }
+  .note { background:#fff8e6; border-color:#f1dca6; }
+  footer { color:var(--muted); font-size:14px; text-align:center; padding:8px 20px 40px; }
+  footer a { color:inherit; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <p class="brand">Stan Paraclete Hospital Hub</p>
+    <h1>Download SP-H</h1>
+    <p>Patients, consultations, laboratory, pharmacy, billing and stock in one clinic system. It works on your clinic's computers even when the internet is down.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="cards">
+    <div class="card" id="card-win">
+      <span class="tag" hidden>Suggested for this computer</span>
+      <h2>Windows</h2>
+      <p class="meta">Windows 10 or 11 · 64-bit · 74 MB · version 1.2.104</p>
+      <a class="btn" href="https://github.com/StanParaclete/SPH/raw/downloads/v1.2.104/SP-H_Felchris_Setup_1.2.104.exe">Download for Windows</a>
+    </div>
+    <div class="card" id="card-mac">
+      <span class="tag" hidden>Suggested for this computer</span>
+      <h2>Mac</h2>
+      <p class="meta">Apple Silicon (M1 or newer) · 91 MB · version 1.2.104</p>
+      <a class="btn" href="https://github.com/StanParaclete/SPH/raw/downloads/v1.2.104/Stan.Paraclete.Hospital.Hub-1.2.104-arm64.dmg">Download for Mac</a>
+    </div>
+  </div>
+
+  <section>
+    <h2>Installing on Windows</h2>
+    <ol>
+      <li>Open the file you downloaded, <strong>SP-H_Felchris_Setup_1.2.104.exe</strong>.</li>
+      <li>If you see "Windows protected your PC", click <strong>More info</strong>, then <strong>Run anyway</strong>. This appears because the installer is not yet registered with Microsoft. It is safe.</li>
+      <li>Follow the installer. SP-H appears in the Start menu and on the desktop.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Installing on Mac</h2>
+    <ol>
+      <li>Open the downloaded file and drag <strong>Stan Paraclete Hospital Hub</strong> into <strong>Applications</strong>.</li>
+      <li>Open it from Applications. If macOS says it can't check the app, open <strong>System Settings → Privacy &amp; Security</strong>, scroll down and click <strong>Open Anyway</strong>. You only do this once.</li>
+    </ol>
+  </section>
+
+  <section class="note">
+    <h2>Already using SP-H?</h2>
+    <p style="margin:0">Make a backup of your clinic's data in SP-H before installing a new version, then install over the top. Your patients and records stay where they are.</p>
+  </section>
+
+  <section>
+    <h2>Check your download (optional)</h2>
+    <p class="meta" style="margin:0 0 8px">SHA-256 fingerprints, for IT staff who want to confirm the files are genuine:</p>
+    <p style="margin:4px 0">Windows: <code>01a28a78451a1fb2871b0aa874293b79e2633529baee328a4de9be4b82903f01</code></p>
+    <p style="margin:4px 0">Mac: <code>75d77bf413392e2c3271796b91965882c5579d3f65c7d0874c5eb895d2c0a09d</code></p>
+  </section>
+</main>
+
+<footer>
+  SP-H is made by <a href="https://stanparaclete.com">Stan Paraclete</a>, Accra.
+</footer>
+
+<script>
+  (function () {
+    var ua = navigator.userAgent || '';
+    var id = /Windows/i.test(ua) ? 'card-win' : (/Macintosh|Mac OS X/i.test(ua) && !/iPhone|iPad/i.test(ua) ? 'card-mac' : null);
+    if (!id) return;
+    var card = document.getElementById(id);
+    card.classList.add('suggested');
+    card.querySelector('.tag').hidden = false;
+    card.parentNode.insertBefore(card, card.parentNode.firstChild);
+  })();
+</script>
+</body>
+</html>

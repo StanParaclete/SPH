@@ -1,3 +1,3 @@
 # SP-H installers
 
-Download page: https://sph-downloads.netlify.app
+Download page: https://stanparaclete.github.io/SPH/
