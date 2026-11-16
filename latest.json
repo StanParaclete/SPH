@@ -1,9 +1,33 @@
 {
   "product": "SP-H",
   "channels": {
-    "stable": "1.2.104"
+    "stable": "1.2.105"
   },
   "releases": [
+    {
+      "version": "1.2.105",
+      "channel": "stable",
+      "date": "2026-11-16",
+      "mandatory": false,
+      "notes": [
+        "New AI Assistant: patients answer intake questions on a tablet or phone before seeing the clinician",
+        "Danger signs the patient mentions are flagged to staff at once",
+        "Follow-up check-ins by WhatsApp after a visit",
+        "Back up your data before installing"
+      ],
+      "files": {
+        "win": {
+          "url": "https://github.com/StanParaclete/SPH/raw/downloads/v1.2.105/SP-H_Felchris_Setup_1.2.105.exe",
+          "sha256": "b7e44e3eb5e001aa82b2acbfcc1c00f09e2f00850e02e8ecb9a3bb1c8e749b28",
+          "size": 77300918
+        },
+        "mac": {
+          "url": "https://github.com/StanParaclete/SPH/raw/downloads/v1.2.105/Stan.Paraclete.Hospital.Hub-1.2.105-arm64.dmg",
+          "sha256": "6330716ee7475e64e22bae0697407c0159410bc395f4d0da90950a21024cb76a",
+          "size": 95620803
+        }
+      }
+    },
     {
       "version": "1.2.104",
       "channel": "stable",
@@ -33,7 +57,7 @@
       "date": "2026-08-27",
       "mandatory": false,
       "notes": [
-        "Pairing by scan or paste — the address fills itself",
+        "Pairing by scan or paste \u2014 the address fills itself",
         "Pairing codes last 60 minutes"
       ],
       "files": {
