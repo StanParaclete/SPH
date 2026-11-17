@@ -1,9 +1,31 @@
 {
   "product": "SP-H",
   "channels": {
-    "stable": "1.2.106"
+    "stable": "1.2.107"
   },
   "releases": [
+    {
+      "version": "1.2.107",
+      "channel": "stable",
+      "date": "2026-11-17",
+      "mandatory": false,
+      "notes": [
+        "New Ideas tab: describe a clinic problem and get suggestions from four viewpoints plus an action list",
+        "Back up your data before installing"
+      ],
+      "files": {
+        "win": {
+          "url": "https://github.com/StanParaclete/SPH/raw/downloads/v1.2.107/SP-H_Felchris_Setup_1.2.107.exe",
+          "sha256": "8c422f9ce4e4810be2af3d82c12fe263fe616632ac7425bbe96570fa7b3c7ae8",
+          "size": 77311435
+        },
+        "mac": {
+          "url": "https://github.com/StanParaclete/SPH/raw/downloads/v1.2.107/Stan.Paraclete.Hospital.Hub-1.2.107-arm64.dmg",
+          "sha256": "c15a8ea34d72466106b9df8ba5f3a3d93a4bd6ba8483be53f6762278dae73227",
+          "size": 95663468
+        }
+      }
+    },
     {
       "version": "1.2.106",
       "channel": "stable",
