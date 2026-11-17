@@ -1,9 +1,33 @@
 {
   "product": "SP-H",
   "channels": {
-    "stable": "1.2.105"
+    "stable": "1.2.106"
   },
   "releases": [
+    {
+      "version": "1.2.106",
+      "channel": "stable",
+      "date": "2026-11-17",
+      "mandatory": false,
+      "notes": [
+        "AI lessons for patients after a visit, with pictures and a teach-back quiz",
+        "AI training lessons for staff",
+        "See each patient's quiz score and the questions they asked",
+        "Back up your data before installing"
+      ],
+      "files": {
+        "win": {
+          "url": "https://github.com/StanParaclete/SPH/raw/downloads/v1.2.106/SP-H_Felchris_Setup_1.2.106.exe",
+          "sha256": "7efae0c5b1fd147aaee8467106615e6d8b09032c72c4be702309e5d7f222ec57",
+          "size": 77309359
+        },
+        "mac": {
+          "url": "https://github.com/StanParaclete/SPH/raw/downloads/v1.2.106/Stan.Paraclete.Hospital.Hub-1.2.106-arm64.dmg",
+          "sha256": "06ddaf52057dc87cb9bf6874d5734ba3347e12bbdbcf2829e2b7efa48dc92b17",
+          "size": 95651938
+        }
+      }
+    },
     {
       "version": "1.2.105",
       "channel": "stable",
